@@ -4,7 +4,7 @@ public class Museum {
   Long id;
   String name;
   String description;
-  String String;
+  String address;
   String collectionType;
   String subject;
   String url;
@@ -35,12 +35,12 @@ public class Museum {
     this.description = description;
   }
 
-  public java.lang.String getString() {
-    return String;
+  public java.lang.String getAddress() {
+    return address;
   }
 
-  public void setString(java.lang.String string) {
-    String = string;
+  public void setAddress(String address) {
+    this.address = address;
   }
 
   public java.lang.String getCollectionType() {
