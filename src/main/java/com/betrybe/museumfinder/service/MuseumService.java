@@ -48,6 +48,9 @@ public class MuseumService implements MuseumServiceInterface {
     }
   }
 
+  /**
+   * get Museum.
+   */
   public Museum getMuseum(Long id) {
     Optional<Museum> museum = database.getMuseum(id);
 
@@ -56,5 +59,5 @@ public class MuseumService implements MuseumServiceInterface {
     } else {
       throw new MuseumNotFoundException("No museum");
     }
-  };
+  }
 }
